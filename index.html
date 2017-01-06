@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | EnderGame</title>
+    <link rel="stylesheet" href="dl.dropboxusercontent.com/home/amz-webgl/TemplateData/style.css">
+    <link rel="shortcut icon" href="dl.dropboxusercontent.com/home/amz-webgl/TemplateData/favicon.ico" />
+    <script src="dl.dropboxusercontent.com/home/amz-webgl/TemplateData/UnityProgress.js"></script>
+  </head>
+  <body class="template">
+    <p class="header"><span>Unity WebGL Player | </span>EnderGame</p>
+    <div class="template-wrap clear">
+      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
+      <br>
+      <div class="logo"></div>
+      <div class="fullscreen"><img src="dl.dropboxusercontent.com/home/amz-webgl/TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
+      <div class="title">EnderGame</div>
+    </div>
+    <p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p>
+    <script type='text/javascript'>
+  var Module = {
+    TOTAL_MEMORY: 268435456,
+    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+    compatibilitycheck: null,
+    dataUrl: "dl.dropboxusercontent.com/home/amz-webgl/Release/amz-webgl.data",
+    codeUrl: "dl.dropboxusercontent.com/home/amz-webgl/Release/amz-webgl.js",
+    memUrl: "dl.dropboxusercontent.com/home/amz-webgl/Release/amz-webgl.mem",
+    
+  };
+</script>
+<script src="dl.dropboxusercontent.com/home/amz-webgl/Release/UnityLoader.js"></script>
+
+  </body>
+</html>
